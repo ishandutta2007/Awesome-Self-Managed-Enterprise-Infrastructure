@@ -1,66 +1,77 @@
-# Awesome-Self-Managed-Enterprise-Infrastructure
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Self-Managed Enterprise Infrastructure Banner" width="100%">
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Self-Managed-Enterprise-Infrastructure/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 🏢 Awesome-Self-Managed-Enterprise-Infrastructure
 
-> A curated directory of top self-managed enterprise infrastructure platforms, private cloud stacks, hyperconverged infrastructure (HCI), container orchestration, on-premises GitOps/DevOps systems, and self-hosted open-source alternatives.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://www.trackawesomelist.com/ishandutta2007/Awesome-Self-Managed-Enterprise-Infrastructure/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?labelFollow" /></a>
+</p>
 
-**Last updated: October 2026**
+> 🌐 A curated directory of top self-managed enterprise infrastructure platforms, private cloud stacks, hyperconverged infrastructure (HCI), container orchestration, on-premises GitOps/DevOps systems, and self-hosted open-source alternatives.
 
----
-
-## Table of Contents
-
-- [Overview & Why Self-Managed Infrastructure](#overview--why-self-managed-infrastructure)
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [Enterprise Platforms & SaaS Offerings](#enterprise-platforms--saas-offerings)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [Top Projects Ranked by Community Stars](#top-projects-ranked-by-community-stars)
-  - [Architectural Category Breakdown](#architectural-category-breakdown)
-    - [Cloud-Native Storage & Data Plane](#cloud-native-storage--data-plane)
-    - [Git Repositories & DevOps Forges](#git-repositories--devops-forges)
-    - [Container Engines & Management](#container-engines--management)
-    - [Kubernetes Distributions & Multi-Cluster Management](#kubernetes-distributions--multi-cluster-management)
-    - [Cloud-Native Networking & Observability](#cloud-native-networking--observability)
-    - [Hypervisors, VMs & Converged Infrastructure](#hypervisors-vms--converged-infrastructure)
-    - [Workload Orchestration & IaaS Cloud Stacks](#workload-orchestration--iaas-cloud-stacks)
-- [How to Choose Your Stack](#how-to-choose-your-stack)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Licensing](#disclaimer--licensing)
+📅 **Last updated: October 2026**
 
 ---
 
-## Overview & Why Self-Managed Infrastructure
+## 📑 Table of Contents
+
+- [🔍 Overview & Why Self-Managed Infrastructure](#-overview--why-self-managed-infrastructure)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 Enterprise Platforms & SaaS Offerings](#-enterprise-platforms--saas-offerings)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Top Projects Ranked by Community Stars](#-top-projects-ranked-by-community-stars)
+  - [🏗️ Architectural Category Breakdown](#-architectural-category-breakdown)
+    - [💾 Cloud-Native Storage & Data Plane](#-cloud-native-storage--data-plane)
+    - [🐙 Git Repositories & DevOps Forges](#-git-repositories--devops-forges)
+    - [📦 Container Engines & Management](#-container-engines--management)
+    - [☸️ Kubernetes Distributions & Multi-Cluster Management](#-kubernetes-distributions--multi-cluster-management)
+    - [🌐 Cloud-Native Networking & Observability](#-cloud-native-networking--observability)
+    - [🖥️ Hypervisors, VMs & Converged Infrastructure](#-hypervisors-vms--converged-infrastructure)
+    - [⚙️ Workload Orchestration & IaaS Cloud Stacks](#-workload-orchestration--iaas-cloud-stacks)
+- [🧭 How to Choose Your Stack](#-how-to-choose-your-stack)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Licensing](#-disclaimer--licensing)
+
+---
+
+## 🔍 Overview & Why Self-Managed Infrastructure
 
 Modern enterprises increasingly adopt **self-managed enterprise infrastructure** and hybrid deployment architectures to retain complete ownership over sensitive data, comply with stringent regulatory mandates (such as GDPR, HIPAA, SOC 2, and sovereign cloud frameworks), and protect against spiraling SaaS operational expenditures and unpredictable vendor pricing revisions.
 
 Self-managed infrastructure gives teams authority over:
-- **Data Sovereignty & Security**: Zero telemetry leakage, strict air-gapped isolation capabilities, and complete tenant boundaries.
-- **Cost Predictability**: Amortized capital infrastructure or bare-metal operating expenses rather than escalating per-seat SaaS tax.
-- **Platform Resilience**: Independence from public cloud availability zone outages, unilateral upstream policy changes, or product deprecation.
+- 🛡️ **Data Sovereignty & Security**: Zero telemetry leakage, strict air-gapped isolation capabilities, and complete tenant boundaries.
+- 💰 **Cost Predictability**: Amortized capital infrastructure or bare-metal operating expenses rather than escalating per-seat SaaS tax.
+- ⚡ **Platform Resilience**: Independence from public cloud availability zone outages, unilateral upstream policy changes, or product deprecation.
 
 > [!WARNING]
-> **Atlassian Data Center Migration Notice**: Atlassian ended new Data Center sales on March 30, 2026, and full end-of-life (EOL) is scheduled for **March 28, 2029**. Enterprise IT teams currently on Server/Data Center are actively migrating to private open-source DevOps stacks (GitLab Self-Managed, Gitea/Forgejo) or sanctioned cloud architectures.
+> ⚠️ **Atlassian Data Center Migration Notice**: Atlassian ended new Data Center sales on March 30, 2026, and full end-of-life (EOL) is scheduled for **March 28, 2029**. Enterprise IT teams currently on Server/Data Center are actively migrating to private open-source DevOps stacks (GitLab Self-Managed, Gitea/Forgejo) or sanctioned cloud architectures.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global enterprise infrastructure and private cloud market is estimated at **$145 billion to $165 billion** and is projected to expand at a compound annual growth rate (**CAGR**) of **12% to 15%** through 2030, accelerated by cloud repatriation trends, AI data sovereignty demands, and sovereign computing initiatives.
 
 The market displays a **bimodal, moderately concentrated landscape**:
-- **Hyperscalers & Legacy Mega-Caps**: Amazon Web Services (AWS Outposts), Microsoft (Azure Stack / Arc), Alphabet (Google Distributed Cloud), and Broadcom (VMware Cloud Foundation) capture the lion's share of Fortune 500 hybrid infrastructure spend through enterprise vendor lock-in.
-- **Specialized HCI & Enterprise Open-Source Challengers**: Nutanix, SUSE (Rancher & Harvester), GitLab, and Red Hat (OpenShift) command high-value niches.
-- **Grassroots Open-Source Long Tail**: Pure open-source ecosystems (Proxmox VE, Ceph, MinIO, Gitea, KubeVirt, and K3s) are experiencing rapid adoption among engineering teams resisting multi-million-dollar proprietary licensing hikes.
+- 🏛️ **Hyperscalers & Legacy Mega-Caps**: Amazon Web Services (AWS Outposts), Microsoft (Azure Stack / Arc), Alphabet (Google Distributed Cloud), and Broadcom (VMware Cloud Foundation) capture the lion's share of Fortune 500 hybrid infrastructure spend through enterprise vendor lock-in.
+- 🚀 **Specialized HCI & Enterprise Open-Source Challengers**: Nutanix, SUSE (Rancher & Harvester), GitLab, and Red Hat (OpenShift) command high-value niches.
+- 🌍 **Grassroots Open-Source Long Tail**: Pure open-source ecosystems (Proxmox VE, Ceph, MinIO, Gitea, KubeVirt, and K3s) are experiencing rapid adoption among engineering teams resisting multi-million-dollar proprietary licensing hikes.
 
 ---
 
-## Enterprise Platforms & SaaS Offerings
+## 💼 Enterprise Platforms & SaaS Offerings
 
 Below is a comparison of premier commercial enterprise-grade infrastructure platforms, ranked by parent company size (market capitalization / enterprise valuation):
 
-| Platform | Category / Primary Function | Starting Pricing Tier | Free Tier & Trial Limits | Company Scale / Valuation |
+| 🏢 Platform | 🏷️ Category / Primary Function | 💲 Starting Pricing Tier | 🎁 Free Tier & Trial Limits | 📈 Company Scale / Valuation |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Microsoft Azure Stack & Arc](https://azure.microsoft.com/en-us/products/azure-stack/)** | Hybrid Cloud & Multi-Cloud Infrastructure Management | Azure Arc Control Plane is free for basic inventory; Connected Kubernetes starting at **$2.00/vCPU/month**; Azure Stack HCI host fee is **$10.00/physical core/month** | 30-day free trial with $200 Azure credits; Azure Arc core management & control plane is free forever | **~$3.1 Trillion** (Market Cap) |
 | **[AWS Outposts](https://aws.amazon.com/outposts/)** | Fully Managed On-Premises AWS Hardware & Services | Starting configurations at **~$35,000/year** (3-year all-upfront commitment, e.g., 1U c5.large server) up to **$150,000+** for full rack deployments | No free tier or perpetual trial; hardware is delivered custom-racked per order with initial credit/POC terms negotiated via AWS sales | **~$2.1 Trillion** (Market Cap) |
@@ -74,13 +85,13 @@ Below is a comparison of premier commercial enterprise-grade infrastructure plat
 
 ---
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
-### Top Projects Ranked by Community Stars
+### ⭐ Top Projects Ranked by Community Stars
 
 All open-source tools below are free and open-source, ranked strictly by community GitHub stargazer count. The badges link directly to the respective repository stargazers page.
 
-| Repository | GitHub Stars | License | Primary Architectural Role |
+| 📦 Repository | ⭐ GitHub Stars | 📜 License | 🎯 Primary Architectural Role |
 | :--- | :--- | :--- | :--- |
 | **[MinIO](https://github.com/minio/minio)** | [![MinIO Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) | AGPLv3 | High-Performance S3-Compatible Enterprise Object Storage |
 | **[Gitea](https://github.com/go-gitea/gitea)** | [![Gitea Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers) | MIT | Ultra-lightweight self-hosted Git forge with built-in CI/CD actions |
@@ -103,43 +114,43 @@ All open-source tools below are free and open-source, ranked strictly by communi
 
 ---
 
-### Architectural Category Breakdown
+### 🏗️ Architectural Category Breakdown
 
-#### Cloud-Native Storage & Data Plane
+#### 💾 Cloud-Native Storage & Data Plane
 - **[MinIO](https://github.com/minio/minio)**: Kubernetes-native S3-compatible high-performance object store designed for large-scale enterprise unstructured data, analytics, and AI workloads.
 - **[Ceph](https://github.com/ceph/ceph)**: Highly scalable, software-defined distributed storage providing unified block (RBD), object (RGW), and POSIX file storage (CephFS) running on commodity hardware.
 
-#### Git Repositories & DevOps Forges
+#### 🐙 Git Repositories & DevOps Forges
 - **[Gitea](https://github.com/go-gitea/gitea)**: Extremely lightweight, pain-free self-hosted Git service written in Go. Idles on minimal RAM (<150MB) and supports built-in CI/CD actions, packages, and issues.
 - **[GitLab CE](https://github.com/gitlabhq/gitlabhq)**: Full-featured, self-managed software development lifecycle platform including Git repository management, Auto DevOps, CI/CD runners, and package registries.
 
-#### Container Engines & Management
+#### 📦 Container Engines & Management
 - **[Podman](https://github.com/containers/podman)**: A daemonless container engine for developing, managing, and running OCI containers with rootless security and direct Kubernetes YAML playback.
 - **[Portainer](https://github.com/portainer/portainer)**: Universal visual container dashboard simplifying orchestration across Docker, Docker Swarm, Nomad, and Kubernetes clusters.
 
-#### Kubernetes Distributions & Multi-Cluster Management
+#### ☸️ Kubernetes Distributions & Multi-Cluster Management
 - **[Rancher](https://github.com/rancher/rancher)**: Unified multi-cluster Kubernetes platform that automates provisioning, monitoring, security policies (OPA Gatekeeper), and GitOps (Fleet) across bare-metal and clouds.
 - **[K3s](https://github.com/k3s-io/k3s)**: Highly available, lightweight certified Kubernetes packaged into a single binary (<100MB), ideal for edge compute, IoT, and resource-constrained enterprise branch offices.
 - **[OpenShift (OKD)](https://github.com/openshift/origin)**: The upstream community distribution powering Red Hat OpenShift, tailored for organizations requiring built-in build pipelines, developer consoles, and SCC security models.
 
-#### Cloud-Native Networking & Observability
+#### 🌐 Cloud-Native Networking & Observability
 - **[Cilium](https://github.com/cilium/cilium)**: Open-source, eBPF-driven networking, observability, and security solution providing high-throughput routing, network policy enforcement, and service mesh without sidecars.
 
-#### Hypervisors, VMs & Converged Infrastructure
+#### 🖥️ Hypervisors, VMs & Converged Infrastructure
 - **[Proxmox VE](https://github.com/proxmox/pve-manager)**: Comprehensive open-source server virtualization management platform combining KVM hypervisor, LXC containers, software-defined storage, and high-availability clustering in an intuitive web UI.
 - **[Harvester](https://github.com/harvester/harvester)**: Modern open-source hyperconverged infrastructure (HCI) solution designed on top of Kubernetes and KubeVirt, presenting an open alternative to VMware vSphere and Nutanix.
 - **[KubeVirt](https://github.com/kubevirt/kubevirt)**: Virtualization add-on technology allowing Kubernetes to orchestrate and manage standard virtual machines side-by-side with container workloads.
 - **[XCP-ng](https://github.com/xcp-ng/xcp)**: Linux Foundation-backed hypervisor platform built on Xen, featuring live VM migration, storage pools, and centralized administration via Xen Orchestra.
 - **[oVirt](https://github.com/oVirt/ovirt-engine)**: Comprehensive enterprise KVM virtualization manager supporting multi-host management, VM templates, disaster recovery, and live storage migration.
 
-#### Workload Orchestration & IaaS Cloud Stacks
+#### ⚙️ Workload Orchestration & IaaS Cloud Stacks
 - **[Nomad](https://github.com/hashicorp/nomad)**: Lightweight, operationally straightforward workload orchestrator deploying containerized, non-containerized, and legacy applications across multi-region environments.
 - **[OpenStack](https://github.com/openstack/nova)**: Battle-tested open-source cloud computing infrastructure software enabling enterprises to deploy massive private infrastructure-as-a-service (IaaS) clouds.
 - **[Apache CloudStack](https://github.com/apache/cloudstack)**: Turnkey open-source cloud infrastructure software built to orchestrate large networks of virtual machines with multi-hypervisor compatibility (KVM, VMware, XenServer).
 
 ---
 
-## How to Choose Your Stack
+## 🧭 How to Choose Your Stack
 
 ```
                                   What is your primary infrastructure workload?
@@ -156,26 +167,50 @@ All open-source tools below are free and open-source, ranked strictly by communi
    Proxmox VE]         oVirt]            OpenShift]        Portainer]                              Nomad]
 ```
 
-1. **For VMware / Nutanix Replacements**: Evaluate **Harvester** if you want Kubernetes-native convergence; choose **Proxmox VE** or **XCP-ng** for proven hypervisor operations with predictable storage and clustering.
-2. **For Kubernetes Operations**: Deploy **Rancher** to centrally govern security and GitOps across bare-metal nodes and existing cloud clusters; pair with **K3s** on edge appliances.
-3. **For Data & Storage Sovereignty**: Pair **Ceph** for high-volume block/CephFS and **MinIO** for enterprise S3 object workloads.
-4. **For Code & CI/CD**: Run **Gitea** for micro-footprints (<250MB RAM) or **GitLab Self-Managed** for integrated end-to-end DevOps automation.
+1. 💻 **For VMware / Nutanix Replacements**: Evaluate **Harvester** if you want Kubernetes-native convergence; choose **Proxmox VE** or **XCP-ng** for proven hypervisor operations with predictable storage and clustering.
+2. ☸️ **For Kubernetes Operations**: Deploy **Rancher** to centrally govern security and GitOps across bare-metal nodes and existing cloud clusters; pair with **K3s** on edge appliances.
+3. 🗄️ **For Data & Storage Sovereignty**: Pair **Ceph** for high-volume block/CephFS and **MinIO** for enterprise S3 object workloads.
+4. 🚀 **For Code & CI/CD**: Run **Gitea** for micro-footprints (<250MB RAM) or **GitLab Self-Managed** for integrated end-to-end DevOps automation.
 
 ---
 
-## How to Contribute
+## 📈 Star History
 
-Contributions are welcome! Please follow these guidelines:
-
-1. **Fork the repository** to your personal GitHub account.
-2. **Verify repository quality**: Ensure submitted open-source projects are active, feature strong open licenses (Apache 2.0, MIT, GPL, AGPL), and solve an enterprise infrastructure problem.
-3. **Keep table schema intact**: When submitting SaaS or OSS entries, maintain pricing transparency, company valuation metrics, and accurate star badges.
-4. **Submit a Pull Request** with a concise explanation of the platform's merits.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Self-Managed-Enterprise-Infrastructure&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Self-Managed-Enterprise-Infrastructure&type=date&legend=top-left)
 
 ---
 
-## Disclaimer & Licensing
+## 💖 Support & Community
 
-- This repository is a community-maintained curated list and does not constitute commercial endorsement.
-- All product names, logos, and brands are property of their respective owners.
-- Running self-managed infrastructure demands strict operational discipline for high-availability failover, automated offsite backups, zero-trust security hardening, and vulnerability patch cycles. Always verify individual licensing terms before deploying in commercial environments.
+Thank you for visiting and supporting the **Awesome Self-Managed Enterprise Infrastructure** project! 🌟
+
+If you find this curated collection helpful for your engineering, architecture, or self-hosting endeavors, please consider:
+- ⭐ **Starring this repository** to improve visibility for the wider community.
+- 🍴 **Forking and sharing** with your teammates, DevOps engineers, and infrastructure architects.
+- 💬 **Joining the conversation** on [Discord](https://discord.gg/jc4xtF58Ve) to share your deployment stacks and experiences.
+- ☕ **Supporting the creator**: If you'd like to support ongoing research and maintenance, feel free to [buy me a coffee via GitHub Sponsors](https://github.com/sponsors/ishandutta2007)!
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Please follow these guidelines:
+
+1. 🍴 **Fork the repository** to your personal GitHub account.
+2. 🔍 **Verify repository quality**: Ensure submitted open-source projects are active, feature strong open licenses (Apache 2.0, MIT, GPL, AGPL), and solve an enterprise infrastructure problem.
+3. 📝 **Keep table schema intact**: When submitting SaaS or OSS entries, maintain pricing transparency, company valuation metrics, and accurate star badges.
+4. 🚀 **Submit a Pull Request** with a concise explanation of the platform's merits.
+
+---
+
+## ⚖️ Disclaimer & Licensing
+
+- ⚠️ This repository is a community-maintained curated list and does not constitute commercial endorsement.
+- 🏷️ All product names, logos, and brands are property of their respective owners.
+- 🛡️ Running self-managed infrastructure demands strict operational discipline for high-availability failover, automated offsite backups, zero-trust security hardening, and vulnerability patch cycles. Always verify individual licensing terms before deploying in commercial environments.
