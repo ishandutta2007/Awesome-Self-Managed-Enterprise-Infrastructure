@@ -91,7 +91,7 @@ Below is a comparison of premier commercial enterprise-grade infrastructure plat
 
 All open-source tools below are free and open-source, ranked strictly by community GitHub stargazer count. The badges link directly to the respective repository stargazers page.
 
-| 📦 Repository | ⭐ GitHub Stars | 📜 License | 🎯 Primary Architectural Role |
+| 📦 Repository | ⭐ GitHub_Stars | 📜 License | 🎯 Primary Architectural Role |
 | :--- | :--- | :--- | :--- |
 | **[MinIO](https://github.com/minio/minio)** | [![MinIO Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) | AGPLv3 | High-Performance S3-Compatible Enterprise Object Storage |
 | **[Gitea](https://github.com/go-gitea/gitea)** | [![Gitea Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers) | MIT | Ultra-lightweight self-hosted Git forge with built-in CI/CD actions |
@@ -204,7 +204,7 @@ Contributions are warmly welcomed! Please follow these guidelines:
 
 1. 🍴 **Fork the repository** to your personal GitHub account.
 2. 🔍 **Verify repository quality**: Ensure submitted open-source projects are active, feature strong open licenses (Apache 2.0, MIT, GPL, AGPL), and solve an enterprise infrastructure problem.
-3. 📝 **Keep table schema intact**: When submitting SaaS or OSS entries, maintain pricing transparency, company valuation metrics, and accurate star badges.
+3. 📝 **Keep table schema intact**: When submitting SaaS or OSS entries, maintain pricing transparency, company valuation metrics, and accurate Stars_Badges.
 4. 🚀 **Submit a Pull Request** with a concise explanation of the platform's merits.
 
 ---
